@@ -133,6 +133,10 @@ body{
     padding: 0 1rem 1rem 1rem;
 }
 
+#notifications:hover{
+    cursor: pointer;
+    color:var(--main-color);
+}
 
 #profile-caption{
     grid-area: 1/2/2/2;
@@ -155,6 +159,11 @@ button{
     margin-left: 1rem;
 }
 
+button:hover{
+    cursor: pointer;
+    color: var(--secondary-color);
+}
+
 #buttons{
     align-self: center;
     display: flex;
@@ -169,6 +178,10 @@ a{
     text-decoration: none;
     color: white;
     padding-top: -1rem;
+}
+
+a:hover{
+    color: var(--secondary-color);
 }
 
 ul{

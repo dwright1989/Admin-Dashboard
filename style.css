@@ -75,10 +75,12 @@ body{
     display: grid;
     grid-template-columns: 3fr 1fr;
     grid-template-rows: repeat(2,1fr);
+    color: black;
 }
 
 #search{
     padding: 1rem;
+   
 }
 
 #search-bar{
@@ -88,6 +90,28 @@ body{
     width: 30rem;
     margin-left: 1rem;
     padding-left: 0.5rem;
+}
+
+#profile-thumbnail{
+    width: 3rem;
+    border-radius: 25px;
+}
+
+#notifications{
+    display: flex;
+    gap: 10%;
+    align-self: center;
+
+}
+
+#notification-image{
+   height: 1.5rem;
+   align-self: center;
+}
+
+#name{
+    font-weight: bolder;
+    align-self: center;
 }
 
 

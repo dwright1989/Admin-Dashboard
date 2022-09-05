@@ -1,0 +1,85 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Anek+Telugu:wght@300&display=swap');
+
+
+:root{
+
+    --main-color: #115e59;
+    --secondary-color: #6ee7b7;
+    --tertiary-color: #ecfdf5;
+
+}
+
+body{
+    color: white;
+    font-family: 'Anek Telugu', sans-serif;
+}
+
+#container{
+    display: inline-grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+}
+
+#header{
+    background-color: var(--tertiary-color);
+    grid-area: 1/2/2/6;
+}
+#content{
+    background-color: var(--secondary-color);
+    grid-area: 2/2/6/6;
+}
+
+/* ----------- Nagivation Panel ------------*/
+
+#nav-panel{
+    background-color: var(--main-color);
+    grid-area: 1/1/6/2;  
+    padding: 1rem;
+}
+
+#dashboard-header{
+    display: flex;
+    font-size: 2rem;
+    align-items: center;
+}
+
+#dash-image{
+    width: 2rem;
+    padding-bottom: 0.5rem;
+}
+
+.icon{
+    width: 1.5rem;
+    padding-right: 1rem;
+}
+
+.dash-item{
+    padding-bottom: 0.5rem;
+    font-size: 1rem;
+}
+
+#links-icons{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    padding: 1rem;
+}
+
+
+
+/*------Generic-----*/
+
+a{
+    text-decoration: none;
+    color: white;
+    padding-top: -1rem;
+}
+
+ul{
+    list-style: none;
+    font-size: 1.5rem;
+}
+
+li{
+    padding-bottom: 1rem;
+}

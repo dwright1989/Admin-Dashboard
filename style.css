@@ -206,6 +206,7 @@ button:hover{
     display:grid;
     grid-template-columns: 1fr 20fr;
     grid-template-rows: 1fr 3fr 1fr;
+    box-shadow: 5px 5px 5px var(--main-color); 
 }
 
 .colour-block{

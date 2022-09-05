@@ -149,6 +149,7 @@ body{
 button{
     background-color: var(--main-color);
     border-radius: 25px;
+    border: 1px solid var(--main-color);
     width: 5rem;
     color: var(--tertiary-color);
     margin-left: 1rem;

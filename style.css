@@ -171,6 +171,30 @@ button:hover{
     padding-right: 2rem;
 }
 
+/*-------Content------*/
+
+#content{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-template-rows: repeat(2, 1fr);
+}
+
+/*Cards*/
+#cards{
+    background-color: red;
+    grid-area: 1/1/3/2;
+}
+
+/*Announcments*/
+#announcements{
+    background-color: blue;
+}
+
+/*Trending*/
+#trending{
+    background-color: yellow;
+}
+
 
 /*------Generic-----*/
 

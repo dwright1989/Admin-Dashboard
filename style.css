@@ -235,13 +235,13 @@ button:hover{
 }
 
 /*Announcments*/
-#announcements{
+#announcements, #trending{
     background-color: var(--secondary-color);
     color: black;
     padding: 1rem;
 }
 
-#announcements-panel{
+#announcements-panel, #trending-panel{
     background-color: white;
     border-radius: 13px;
     color: black;
@@ -251,9 +251,23 @@ button:hover{
 }
 
 /*Trending*/
-#trending{
-    background-color: yellow;
+
+.profile-icon{
+    width: 5rem;
+    height: 5rem;
+    border-radius: 50px;
+    justify-self: end;
 }
+
+#trending-panel{
+    display:grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+    padding: 3rem;
+    gap: 1rem;
+    margin: 0rem 3rem 0rem 3rem;
+}
+
 
 
 /*------Generic-----*/
@@ -275,4 +289,8 @@ ul{
 
 li{
     padding-bottom: 1rem;
+}
+
+h5{
+    font-weight:900;
 }

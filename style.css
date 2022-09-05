@@ -18,11 +18,11 @@ body{
 
 #container{
     height: 100%;
-    width: 100%;
-    display: inline-grid;
+    min-width: 1000px;
+    display: grid;
     grid-template-columns: repeat(5, 1fr);
     grid-template-rows: repeat(5, 1fr);
-    
+
 }
 
 
@@ -81,6 +81,7 @@ body{
 
 #search{
     padding: 1rem;
+    align-self: center;
    
 }
 
@@ -91,6 +92,7 @@ body{
     width: 30rem;
     margin-left: 1rem;
     padding-left: 0.5rem;
+    
 }
 
 #profile-thumbnail{
@@ -102,7 +104,8 @@ body{
     display: flex;
     gap: 10%;
     align-self: center;
-
+    justify-content: flex-end;
+    padding-right: 2rem;
 }
 
 #notification-image{
@@ -142,6 +145,21 @@ body{
     font-size: 1.5rem;
 }
 
+
+button{
+    background-color: var(--main-color);
+    border-radius: 25px;
+    width: 5rem;
+    color: var(--tertiary-color);
+    margin-left: 1rem;
+}
+
+#buttons{
+    align-self: center;
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 2rem;
+}
 
 
 /*------Generic-----*/

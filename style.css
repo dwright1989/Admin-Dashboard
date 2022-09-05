@@ -236,7 +236,18 @@ button:hover{
 
 /*Announcments*/
 #announcements{
-    background-color: blue;
+    background-color: var(--secondary-color);
+    color: black;
+    padding: 1rem;
+}
+
+#announcements-panel{
+    background-color: white;
+    border-radius: 13px;
+    color: black;
+    padding: 1rem;
+    font-size: 0.8em;
+    box-shadow: 5px 5px 5px var(--main-color); 
 }
 
 /*Trending*/

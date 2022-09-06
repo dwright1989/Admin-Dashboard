@@ -176,7 +176,7 @@ button:hover{
 #content{
     display: grid;
     grid-template-columns: 2fr 1fr;
-    grid-template-rows: repeat(2, 1fr);
+    grid-template-rows: repeat(autofill, 1fr);
 }
 
 /*Cards*/
@@ -240,6 +240,8 @@ button:hover{
     color: black;
     padding: 1rem;
 }
+
+
 
 #announcements-panel, #trending-panel{
     background-color: white;
